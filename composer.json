@@ -1,0 +1,29 @@
+{
+    "name": "hikari_no_yume/bitcoin-or-bitcon",
+    "description": "A sophisticated PHP 7.0 library for determining the practicality of cryptocurrencies.",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Andrea Faulds",
+            "email": "ajf@ajf.me"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/lut.php"
+        ],
+        "psr-4": {
+            "hikari_no_yume\\BitcoinOrBitcon\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "phpunit tests"
+    }
+}
